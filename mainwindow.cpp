@@ -159,7 +159,7 @@ MainWindow::MainWindow(QWidget *parent)
     //---------MONEDAS-------------------------
     for(int i=20;i<=380;i+=10){
         if(i<185 | i>210){
-       coins.append(new moneda(6,-i,-15));
+       coins.append(new moneda(3,-i,-15));
        scene->addItem(coins.back());
         }
        }
